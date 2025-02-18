@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Home Page</title>
 
     <style>
@@ -15,7 +19,7 @@
     </style>
   </head>
   <body>
-    <header>
+    <header id="site-navigation">
       <h1>Briana Fernandez's Portfolio Website</h1>
       <nav>
         <a href="index.html">Home</a>
@@ -25,20 +29,19 @@
       </nav>
     </header>
 
-    <main>
+    <main class="slide-in-left">
       <p><code>Hello World!</code></p>
-      <hr>
+      <hr />
       <dl>
-        <dt>Frontend Developer</dt>
+        <dt>Software Developer</dt>
         <dd>
-          Currently working on user interfaces at
-          <abbr title="San Diego Supercomputer Center">SDSC</abbr>
+          Currently designing intuitive user interfaces
+          <abbr title="San Diego Supercomputer Center">SDSC.</abbr>
         </dd>
-
         <dt>UX Designer</dt>
         <dd>Previously worked for the County of San Diego.</dd>
       </dl>
-      <hr>
+      <hr />
     </main>
 
     <hello-world></hello-world>
@@ -55,7 +58,7 @@
       );
     </script>
 
-    <footer>
+    <footer id="footer">
       <p>Made with <strong>love</strong> by <em>Briana Fernandez</em>.</p>
     </footer>
   </body>
