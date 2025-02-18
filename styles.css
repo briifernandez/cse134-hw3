@@ -44,7 +44,12 @@ footer {
 
 #footer:hover {
   transform: translateY(-8px) scale(1.03);
-  background-color: color-mix(in srgb, #2a7ab4 50%, #d355e3 50%);
+  background: linear-gradient(45deg, #5fade5 50%, #80d5af 50%);
+}
+
+#footer:hover {
+  transform: translateY(-8px) scale(1.03);
+  background-color: color-mix(in srgb,  #5fade5 50%, #80d5af 50%);
 }
 
 
