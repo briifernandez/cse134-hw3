@@ -217,20 +217,28 @@ footer {
   }
 }
 
-#work-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-  padding: 1rem;
-  max-width: 50rem; 
-  margin: 0 auto;  
-}
-
 #prev-work,
 #current-tech {
   padding: 1rem;
   background-color: #fff;
   border: 1px solid #ccc;
+}
+
+#work-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 50rem;      
+  margin: 0 auto;        
+  box-sizing: border-box;
+}
+
+#current-tech img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 @media (max-width: 768px) {
