@@ -222,6 +222,8 @@ footer {
   grid-template-columns: 1fr 1fr;
   gap: 20px;
   padding: 1rem;
+  max-width: 50rem; 
+  margin: 0 auto;  
 }
 
 #prev-work,
